@@ -52,23 +52,27 @@ $$
 
 Entonces
 
-\begin{equation}
+$$\begin{equation}
     o=g(h)=\left\{\begin{array}{rcl}
                      1 & if & h <   0 \\
                      0 & if & h \le 0
 \end{array}\right.
-\end{equation}
+\end{equation}$$
 
 >También se pueden definir ecuaciones por intervalos
 
-\begin{equation}
+$$\begin{equation}
 f(n)=\left\{\begin{matrix} n/2 & \mbox{si }n\mbox{ es par}
 \\ 3n+1 & \mbox{si }n\mbox{ es impar}\end{matrix}\right.
-\end{equation}
+\end{equation}$$
 
 
 
 
 >Ahora escribimos un arreglo de ecuaciones
 
-\begin{array}{l}{C_1} = {C_2} = \frac{{{V_o}D}}{{\Delta {V_{C1}}R{f_s}\left( {1 - D} \right)}}\\{C_3} = \frac{{{V_o}D}}{{\Delta {V_{C3}}R{f_s}}}\\{C_r} = \frac{{{D^2}}}{{{\pi ^2}{f_s}}}\left( {\frac{{1 - D}}{{{f_s}{L_r}}} + \frac{{{\Delta _{Lr}}}}{E}} \right)\end{array}
+$$\begin{array}{l}{C_1} = {C_2} = \frac{{{V_o}D}}{{\Delta {V_{C1}}R{f_s}\left( {1 - D} \right)}}\\{C_3} = \frac{{{V_o}D}}{{\Delta {V_{C3}}R{f_s}}}\\{C_r} = \frac{{{D^2}}}{{{\pi ^2}{f_s}}}\left( {\frac{{1 - D}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right)\end{array}$$
+
+\begin{array}{lcl} z & = & a \\ f(x,y,z) & = & x + y + z \end{array}
+
+
