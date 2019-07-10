@@ -25,7 +25,7 @@ y(x_{i}) = 4 + x_{i}^{2}
 \end{equation}
 
 
->Una integral
+>Una sumatoria
 
 $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha}$$
 
@@ -33,12 +33,8 @@ $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\l
 >También se pueden definir ecuaciones por intervalos
 
 \begin{equation}
-f(x) = \left\lbrace
-\begin{array}{ll}
-\textup{si } x>5 & 1\\
-\textup{si } x\leq 5 & 0
-\end{array}
-\right.
+f(n) = \left \{ \begin{matrix} n/2 & \mbox{si }n\mbox{ es par}
+\\ 3n+1 & \mbox{si }n\mbox{ es impar}\end{matrix}\right.
 \end{equation}
 
 
