@@ -35,12 +35,9 @@ y(x_{i}) = 4 + x_{i}^{2}
 
 >Un sistema de ecuaciones
 
-$$\begin{equation}
-{\left.
-2x + y  = 1 \atop
-x + y = 4 
-\right }
-\end{equation}$$
+\begin{equation}
+f(x) = \left\lbrace \begin{array}{ll} \textup{si } x>5 & 1\\ \textup{si } x\leq 5 & 0 \end{array} \right.
+\end{equation}
 
 
 >Agregando un límite
@@ -59,7 +56,7 @@ $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\l
 
 \begin{equation}
 f(n) = \left \{ \begin{matrix} n/2 & \mbox{si }n\mbox{ es par}
-\\ 3n+1 & \mbox{si }n\mbox{ es impar}\end{matrix}\right.
+\\ 3n+1 & \mbox{si }n\mbox{ es impar}\end{matrix} \right.
 \end{equation}
 
 
