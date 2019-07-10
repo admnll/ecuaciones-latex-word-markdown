@@ -32,7 +32,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 >Una ecuación más complicada es la siguiente:
 
 \begin{equation}
-\frac{x^2}{x^2 + y^2} + \frac15 + \frac1{x}
+\frac{x^2}{x^2 + y^2} = \frac15 + \frac1{x}
 \end{equation}
 
 >Para una ecuación con referencia, por ejemplo, la ecuación (\ref{eq:ej}):
@@ -126,23 +126,26 @@ f(x) = \left.
 \end{equation}
 
 
-> Otro más alineando la primera a la izquierda, otra al centro y otra a la izquierda.
+> Otro ejemplo más, pero alineando la primera columna a la izquierda, la columna del igual al centro y la otra a la derecha.
 
-\begin{array}{lcl} z & = & a \newline f(x,y,z) & = & x + y + z \end{array}
+\begin{array}{lcr} z & = & a \newline f(x,y,z) & = & x + y + z \end{array}
+
 
 > También se pueden agregar letras griegas
 
 $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
 
+
 >Aquí les dejo otros ejemplos:
 
 \begin{equation}
 \begin{array}
-  a=0  \newline 
+  {a}=0  \newline 
   a+b \newline 
   a+b+c
 \end{array}
 \end{equation}
+
 
 Este último también usa '$$'
 
