@@ -58,7 +58,7 @@ f(n) =
 >También se pueden definir ecuaciones por intervalos
 
 \begin{equation}
-f(n) = 
+f(n) = {
   \begin{matrix} 
   n/2 & \mbox{si }n \mbox{ es par} \newline 
   3n + 1 & \mbox{si }n \mbox{ es impar} 
