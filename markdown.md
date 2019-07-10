@@ -75,4 +75,4 @@ f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \\ 3n + 1 & \mbox
 
 $$a+b=c \\ d+e=f$$
 
-
+$\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
