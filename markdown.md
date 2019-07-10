@@ -6,6 +6,11 @@
 
 $$a+b=c$$
 
+\[a+b=c\]
+
+a+b=c
+
+
 >Ahora una división
 
 \begin{equation}
@@ -17,6 +22,17 @@ $$a+b=c$$
 \begin{equation}\label{eq:ej}
 y(x_{i}) = 4 + x_{i}^{2}
 \end{equation}
+
+
+>Un sistema de ecuaciones
+
+\[
+\left.
+2x + y  = 1 \atop
+x + y = 4 
+\right\}
+\]
+
 
 >Agregando un límite
 
