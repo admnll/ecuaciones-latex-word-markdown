@@ -14,14 +14,12 @@ y(x_{i}) = 4 + x_{i}^{2}
 
 >También se pueden definir ecuaciones por intervalos
 
-\begin{equation}
-f(x) = \left\lbrace
+$$f(x) = \left\lbrace
 \begin{array}{ll}
 \textup{si } x>5 & 1\\
 \textup{si } x\leq 5 & 0
 \end{array}
-\right.
-\end{equation}
+\right.$$
 
 
 >Ahora escribimos un arreglo de ecuaciones
