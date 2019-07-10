@@ -71,7 +71,13 @@ f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \\ 3n + 1 & \mbox
 
 \begin{array}{l}{C_1} = {C_2} = \frac{{{V_o}D}}{{\Delta {V_{C1}}R{f_s} \left({1 - D} \right)}} \\ {C_3} = \frac{{{V_o}D}}{{\Delta {V_{C3}}R{f_s}}} \\ {C_r} = \frac{{{D^2}}}{{{\pi ^2}{f_s}}} \left( {\frac{{1 - D}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right) \end{array}
 
+
+Probando
 \begin{array}{lcl} z & = & a \newline f(x,y,z) & = & x + y + z \end{array}
+
+Prueba dos
+
+\begin{array}{lcl} z & = & a \\ f(x,y,z) & = & x + y + z \end{array}
 
 $$a+b=c \\ d+e=f$$
 
