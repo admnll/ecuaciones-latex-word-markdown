@@ -1,6 +1,13 @@
 # Como crear texto con ecuaciones en Markdown
 
-## Antes que nada, hay que instalar la extensión de [Mathjax](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related) para  Chrome.
+## Antes que nada, hay que instalar la extensión de [Mathjax](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related) para Chrome.
+
+En caso de que no puedan instalar la extensión y les aparezca algo como esto:
+**'Could not load extension icon 'icon16.png'.'**
+
+Sigan las instrucciones de [aquí](https://github.com/orsharir/github-mathjax/issues/24#issuecomment-462956434)
+
+También hay una extensión para firefox, pero está desactualizada y no funciona. 
 
 >Primeramente vamos a realizar una suma:
 
@@ -22,7 +29,7 @@ No funciona adecuadamente usando \(...\) pero si funciona usando el símbolo '$'
 When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
->Ahora una división
+>Una ecuación más complicada es la siguiente:
 
 \begin{equation}
 \frac{x^2}{x^2 + y^2} + \frac15 + \frac1{x}
@@ -34,14 +41,14 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 y(x_{i}) = 4 + x_{i}^{2}
 \end{equation}
 
->Agregando un límite
+>También se pueden definir límites
 
 \begin{equation}
 \lim_{x \to \infty} \frac{\sin(x)}{x} = 0
 \end{equation}
 
 
->Una sumatoria
+>O sumatorias
 
 $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha}$$
 
@@ -55,8 +62,7 @@ f(n) =
   \end{cases}
 \end{equation}
 
->También se pueden definir ecuaciones por intervalos
-
+> Otra forma de definir ecuaciones es esta:
 
 \begin{equation*}
 \begin{cases}
@@ -67,7 +73,7 @@ f(n) =
 \text{ three equations}
 \end{equation*}
 
-Brazo a la izquierda
+> Se puede poner una llave a la izquierda
 
 \begin{equation}
 f(x) = \left\lbrace
@@ -78,7 +84,7 @@ f(x) = \left\lbrace
 \right.
 \end{equation}
 
-Si no funciona esto:
+> Y alinear cada columna a la derecha:
 
 \begin{equation}
 f(x) = \left\lbrace
@@ -90,7 +96,7 @@ f(x) = \left\lbrace
 \end{equation}
 
 
-Poner esto:
+> O a la izquierda:
 
 \begin{equation}
 f(x) = \left\lbrace
@@ -101,7 +107,8 @@ f(x) = \left\lbrace
 \right.
 \end{equation}
 
-Si quieremos la llave en la derecha
+> O si quieremos la llave en la derecha
+
 \begin{equation}
 f(x) = \left.
 \begin{array}{ll}
@@ -112,20 +119,22 @@ f(x) = \left.
 \end{equation}
 
 
->Ahora escribimos un arreglo de ecuaciones
+> Ahora escribimos un arreglo de ecuaciones sin llaves
 
 \begin{equation}
 \begin{array}{l}{C_1} = {C_2} = \frac{{{V_o}D}}{{\Delta {V_{C1}}R{f_s} \left({1 - D} \right)}} \newline {C_3} = \frac{{{V_o}D}}{{\Delta {V_{C3}}R{f_s}}} \newline {C_r} = \frac{{{D^2}}}{{{\pi ^2}{f_s}}} \left( {\frac{{1 - D}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right) \end{array}
 \end{equation}
 
 
-Probando
+> Otro más alineando la primera a la izquierda, otra al centro y otra a la izquierda.
 
 \begin{array}{lcl} z & = & a \newline f(x,y,z) & = & x + y + z \end{array}
 
-Finalmente
+> También se pueden agregar letras griegas
 
 $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
+
+>Aquí les dejo otros ejemplos:
 
 \begin{equation}
 \begin{array}
@@ -135,11 +144,13 @@ $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, 
 \end{array}
 \end{equation}
 
+Este último también usa '$$'
+
 $$
-\phi_2(x,y)=\left\lbrace
+\phi_r=\left\lbrace
 \begin{array}{ll}
-1 & \textrm{if x contains 'stock'  
-and y is 'sport'}  \newline
+1 & \textrm{if x == 'water'  
+and y == 'chocolate'}  \newline
 0 & \textrm{otherwise}
 \end{array}
 \right.
