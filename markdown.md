@@ -18,6 +18,18 @@ $$a+b=c$$
 y(x_{i}) = 4 + x_{i}^{2}
 \end{equation}
 
+>Agregando un límite
+
+\begin{equation}
+\lim_{x \to \infty} \frac{\sin(x)}{x} = 0
+\end{equation}
+
+
+>Una integral
+
+$$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha}$$
+
+
 >También se pueden definir ecuaciones por intervalos
 
 \begin{equation}
@@ -28,6 +40,8 @@ f(x) = \left\lbrace
 \end{array}
 \right.
 \end{equation}
+
+
 
 
 >Ahora escribimos un arreglo de ecuaciones
