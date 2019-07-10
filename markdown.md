@@ -60,8 +60,8 @@ f(n) =
 
 \begin{equation*}
 \begin{cases}
-  a &= b + c \\
-  d &= e + f + g \\
+  a &= b + c \newline
+  d &= e + f + g \newline
   h &= i + j + k + l
 \end{cases}
 \text{ three equations}
@@ -94,6 +94,16 @@ Poner esto:
 
 \begin{equation}
 f(x) = \left\lbrace
+\begin{array}{ll}
+\text{si } x>5000 & 10000 \newline
+\text{si } x\leq 5 & 0
+\end{array}
+\right.
+\end{equation}
+
+Si quieremos la llave en la derecha
+\begin{equation}
+f(x) = \left\rbrace
 \begin{array}{ll}
 \text{si } x>5000 & 10000 \newline
 \text{si } x\leq 5 & 0
