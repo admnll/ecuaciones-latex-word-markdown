@@ -45,8 +45,9 @@ $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\l
 
 >Un sistema de ecuaciones
 
+¿Qué esta mal?
 $$
-\left. 2x + y  = 1 \atop x + y = 4 \right\}
+\left. 2x + y  = 1 \atop x + y = 4 \right}
 $$
 
 Entonces
