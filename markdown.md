@@ -59,12 +59,32 @@ f(n) =
 
 \begin{equation}
 f(n) = 
-  \left 
   \{\begin{matrix} 
-  n/2 & \text{si }n \text{ es par} \newline 
+  n/2 & \mbox{si }n \mbox{ es par} \newline 
   3n + 1 & \mbox{si }n \mbox{ es impar} 
   \end{matrix} 
-  \right
+\end{equation}
+
+Si no funciona esto:
+
+\begin{equation}
+f(x) = \left\lbrace
+\begin{array}{ll}
+\text{si } x>5 & 1 \\
+\text{si } x\leq 5 & 0
+\end{array}
+\right.
+\end{equation}
+
+
+Poner esto:
+\begin{equation}
+f(x) = \left\lbrace
+\begin{array}{ll}
+\text{si } x>5 & 1 \\
+\text{si } x\leq 5 & 0
+\end{array}
+\right.
 \end{equation}
 
 
