@@ -52,33 +52,30 @@ $$
 
 Entonces
 
-$$\begin{equation}
+\begin{equation}
     o=g(h)=\left\{\begin{array}{rcl}
-                     1 & if & h <   0 \\
+                     1 & if & h <   0 \newline
                      0 & if & h \le 0
 \end{array}\right.
-\end{equation}$$
+\end{equation}
 
 >También se pueden definir ecuaciones por intervalos
 
 \begin{equation}
-f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \\ 3n + 1 & \mbox{si }n \mbox{ es impar} \end{matrix} \right. \end{equation}
+f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \newline 3n + 1 & \mbox{si }n \mbox{ es impar} \end{matrix} \right. \end{equation}
 
 
 
 
 >Ahora escribimos un arreglo de ecuaciones
 
-\begin{array}{l}{C_1} = {C_2} = \frac{{{V_o}D}}{{\Delta {V_{C1}}R{f_s} \left({1 - D} \right)}} \\ {C_3} = \frac{{{V_o}D}}{{\Delta {V_{C3}}R{f_s}}} \\ {C_r} = \frac{{{D^2}}}{{{\pi ^2}{f_s}}} \left( {\frac{{1 - D}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right) \end{array}
+\begin{array}{l}{C_1} = {C_2} = \frac{{{V_o}D}}{{\Delta {V_{C1}}R{f_s} \left({1 - D} \right)}} \newline {C_3} = \frac{{{V_o}D}}{{\Delta {V_{C3}}R{f_s}}} \newline {C_r} = \frac{{{D^2}}}{{{\pi ^2}{f_s}}} \left( {\frac{{1 - D}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right) \end{array}
 
 
 Probando
 \begin{array}{lcl} z & = & a \newline f(x,y,z) & = & x + y + z \end{array}
 
-Prueba dos
 
-\begin{array}{lcl} z & = & a \\ f(x,y,z) & = & x + y + z \end{array}
-
-$$a+b=c \\ d+e=f$$
+$$a+b=c \newline d+e=f$$
 
 $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
