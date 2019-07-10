@@ -63,6 +63,7 @@ f(n) = {
   n/2 & \mbox{si }n \mbox{ es par} \newline 
   3n + 1 & \mbox{si }n \mbox{ es impar} 
   \end{matrix} 
+  }
 \end{equation}
 
 Si no funciona esto:
