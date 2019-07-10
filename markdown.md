@@ -129,8 +129,18 @@ $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, 
 
 \begin{equation}
 \begin{array}
-a=0  \newline 
-a+b \newline 
-a+b+c
+  a=0  \newline 
+  a+b \newline 
+  a+b+c
 \end{array}
 \end{equation}
+
+$$
+\phi_2(x,y)=\left\lbrace
+\begin{array}{ll}
+1 & \textrm{if x contains 'stock'  
+and y is 'sport'}  \newline
+0 & \textrm{otherwise}
+\end{array}
+\right.
+$$
