@@ -103,7 +103,7 @@ f(x) = \left\lbrace
 
 Si quieremos la llave en la derecha
 \begin{equation}
-f(x) = \left
+f(x) = \left.
 \begin{array}{ll}
 \text{si } x>5000 & 10000 \newline
 \text{si } x\leq 5 & 0
