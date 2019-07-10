@@ -46,9 +46,9 @@ $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\l
 >Un sistema de ecuaciones
 
 ¿Qué esta mal?
-$$
-\left. 2x + y  = 1 \atop x + y = 4 \right.}
-$$
+\begin{equation}
+\left. 2x + y  = 1 \atop x + y = 4 \right}
+\end{equation}
 
 Entonces
 
@@ -65,11 +65,11 @@ Entonces
 f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \newline 3n + 1 & \mbox{si }n \mbox{ es impar} \end{matrix} \right. \end{equation}
 
 
-
-
 >Ahora escribimos un arreglo de ecuaciones
 
+\begin{equation}
 \begin{array}{l}{C_1} = {C_2} = \frac{{{V_o}D}}{{\Delta {V_{C1}}R{f_s} \left({1 - D} \right)}} \newline {C_3} = \frac{{{V_o}D}}{{\Delta {V_{C3}}R{f_s}}} \newline {C_r} = \frac{{{D^2}}}{{{\pi ^2}{f_s}}} \left( {\frac{{1 - D}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right) \end{array}
+\end{equation}
 
 
 Probando
