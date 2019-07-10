@@ -46,18 +46,12 @@ $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\l
 >Un sistema de ecuaciones
 
 ¿Qué esta mal?
-\begin{equation}
-\left. 2x + y  = 1 \atop x + y = 4 \right}
-\end{equation}
-
-Entonces
-
-\begin{equation}
-    o=g(h)=\left\{\begin{array}{rcl}
-                     1 & if & h <   0 \newline
-                     0 & if & h \le 0
-\end{array}\right.
-\end{equation}
+\[ f(n) =
+  \begin{cases}
+    n/2       & \quad \text{if } n \text{ is even}\\
+    -(n+1)/2  & \quad \text{if } n \text{ is odd}
+  \end{cases}
+\]
 
 >También se pueden definir ecuaciones por intervalos
 
