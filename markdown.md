@@ -8,7 +8,7 @@ $$a+b=c$$
 
 \[a+b=c\]
 
-\(a+b=c\)
+Si queremos una ecuación en línea con variables en línea  $a \ne 0$, entonces tenemos algo como esto \(a+b=c\) .
 
 >Ahora una división
 
