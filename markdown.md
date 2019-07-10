@@ -58,11 +58,12 @@ f(n) =
 >También se pueden definir ecuaciones por intervalos
 
 \begin{equation}
-f(n) = 
-  { \begin{matrix} 
-  n/2 & \mbox{si }n \mbox{ es par} \newline 
-  3n + 1 & \mbox{si }n \mbox{ es impar}  
-  \end{matrix} }
+f(x) = \left\lbrace
+\begin{array}{lr}
+\text{si } x>5000 & 10000 \newline
+\text{si } x\leq 5 & 0
+\end{array}
+\right.
 \end{equation}
 
 Si no funciona esto:
