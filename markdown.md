@@ -45,8 +45,6 @@ $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\l
 
 >Un sistema de ecuaciones
 
-¿Qué esta mal?
-
 \begin{equation}
 f(n) =
   \begin{cases}
@@ -128,9 +126,9 @@ Finalmente
 $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
 
 \begin{equation}
-\begin{cases}
+\begin{array}
 a  \newline 
 a+b \newline 
 a+b+c
-\end{cases}
+\end{array}
 \end{equation}
