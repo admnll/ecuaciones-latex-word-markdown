@@ -127,5 +127,6 @@ Finalmente
 
 $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
 
-
+\begin{equation}
 \begin{gather}a\\a+b\\a+b+c\end{gather}
+\end{equation}
