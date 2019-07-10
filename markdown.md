@@ -47,7 +47,7 @@ $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\l
 
 ¿Qué esta mal?
 $$
-\left. 2x + y  = 1 \atop x + y = 4 \right}
+\left. 2x + y  = 1 \atop x + y = 4 \right.}
 $$
 
 Entonces
@@ -75,7 +75,5 @@ f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \newline 3n + 1 &
 Probando
 \begin{array}{lcl} z & = & a \newline f(x,y,z) & = & x + y + z \end{array}
 
-
-$$a+b=c \newline d+e=f$$
 
 $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
