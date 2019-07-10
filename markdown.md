@@ -47,7 +47,6 @@ y(x_{i}) = 4 + x_{i}^{2}
 \lim_{x \to \infty} \frac{\sin(x)}{x} = 0
 \end{equation}
 
-
 >O sumatorias
 
 $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha}$$
@@ -139,10 +138,10 @@ $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, 
 >Aquí les dejo otros ejemplos:
 
 \begin{equation}
-\begin{array}
-  {a}=0  \newline 
-  a+b \newline 
-  a+b+c
+\begin{array}{ccc}
+  a = 0  \newline 
+  a + b \newline 
+  a + b + c_p
 \end{array}
 \end{equation}
 
@@ -152,8 +151,8 @@ Este último también usa '$$'
 $$
 \phi_r=\left\lbrace
 \begin{array}{ll}
-1 & \textrm{if x == 'water'  
-and y == 'chocolate'}  \newline
+1 & \textrm{if x = 'water'  
+and y = 'chocolate'}  \newline
 0 & \textrm{otherwise}
 \end{array}
 \right.
