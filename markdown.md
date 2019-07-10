@@ -59,7 +59,8 @@ f(n) =
 
 \begin{equation}
 f(n) = 
-  \begin{matrix} {
+  \begin{matrix} 
+  {
   n/2 & \mbox{si }n \mbox{ es par} \newline 
   3n + 1 & \mbox{si }n \mbox{ es impar} 
   }
@@ -72,7 +73,7 @@ Si no funciona esto:
 \begin{equation}
 f(x) = \left\lbrace
 \begin{array}{rr}
-\text{si } x>5 & 10000 \newline
+\text{si } x>5000 & 10000 \newline
 \text{si } x\leq 5 & 0
 \end{array}
 \right.
@@ -84,7 +85,7 @@ Poner esto:
 \begin{equation}
 f(x) = \left\lbrace
 \begin{array}{ll}
-\text{si } x>5 & 10000 \newline
+\text{si } x>5000 & 10000 \newline
 \text{si } x\leq 5 & 0
 \end{array}
 \right.
