@@ -57,6 +57,18 @@ f(n) =
 
 >También se pueden definir ecuaciones por intervalos
 
+
+\begin{equation*}
+\begin{rcases}
+  a &= b + c \\
+  d &= e + f + g \\
+  h &= i + j + k + l
+\end{rcases}
+\text{ three equations}
+\end{equation*}
+
+Brazo a la izquierda
+
 \begin{equation}
 f(x) = \left\lbrace
 \begin{array}{lr}
