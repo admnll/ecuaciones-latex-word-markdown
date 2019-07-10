@@ -6,7 +6,9 @@
 
 $$a+b=c$$
 
-\[a+b=c\]
+>Luego una división:
+
+$$a/b=c$$
 
 Si queremos una ecuación en línea con variables en línea  $a \ne 0$, entonces tenemos algo como esto $a + b = c$.
 
@@ -127,7 +129,7 @@ $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, 
 
 \begin{equation}
 \begin{array}
-a  \newline 
+a=0  \newline 
 a+b \newline 
 a+b+c
 \end{array}
