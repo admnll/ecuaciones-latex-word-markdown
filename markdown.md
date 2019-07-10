@@ -70,7 +70,7 @@ Si no funciona esto:
 \begin{equation}
 f(x) = \left\lbrace
 \begin{array}{rr}
-\text{si } x>5 & 1 \newline
+\text{si } x>5 & 10000 \newline
 \text{si } x\leq 5 & 0
 \end{array}
 \right.
@@ -82,7 +82,7 @@ Poner esto:
 \begin{equation}
 f(x) = \left\lbrace
 \begin{array}{ll}
-\text{si } x>5 & 1 \newline
+\text{si } x>5 & 10000 \newline
 \text{si } x\leq 5 & 0
 \end{array}
 \right.
