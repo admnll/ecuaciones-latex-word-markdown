@@ -6,7 +6,13 @@
 
 $$a+b=c$$
 
->Ahora una ecuación, por ejemplo, la ecuación (\ref{eq:ej}):
+>Ahora una división
+
+\begin{equation}
+\frac{x^2}{x^2 + y^2} + \frac15 + \frac1{x}
+\end{equation}
+
+>Para una ecuación con referencia, por ejemplo, la ecuación (\ref{eq:ej}):
 
 \begin{equation}\label{eq:ej}
 y(x_{i}) = 4 + x_{i}^{2}
@@ -14,12 +20,14 @@ y(x_{i}) = 4 + x_{i}^{2}
 
 >También se pueden definir ecuaciones por intervalos
 
-$$f(x) = \left\lbrace
+\begin{equation}
+f(x) = \left\lbrace
 \begin{array}{ll}
 \textup{si } x>5 & 1\\
 \textup{si } x\leq 5 & 0
 \end{array}
-\right.$$
+\right.
+\end{equation}
 
 
 >Ahora escribimos un arreglo de ecuaciones
