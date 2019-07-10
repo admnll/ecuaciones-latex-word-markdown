@@ -103,12 +103,12 @@ f(x) = \left\lbrace
 
 Si quieremos la llave en la derecha
 \begin{equation}
-f(x) = \left\rbrace
+f(x) = \left
 \begin{array}{ll}
 \text{si } x>5000 & 10000 \newline
 \text{si } x\leq 5 & 0
 \end{array}
-\right.
+\right.\rbrace
 \end{equation}
 
 
