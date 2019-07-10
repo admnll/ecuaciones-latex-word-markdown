@@ -12,6 +12,18 @@ $$a+b=c$$
 y(x_{i}) = 4 + x_{i}^{2}
 \end{equation}
 
+>También se pueden definir ecuaciones por intervalos
+
+\begin{equation}
+f(x) = \left\lbrace
+\begin{array}{ll}
+\textup{si } x>5 & 1\\
+\textup{si } x\leq 5 & 0
+\end{array}
+\right.
+\end{equation}
+
+
 >Ahora escribimos un arreglo de ecuaciones
 
-$$\begin{array}{l}{C_1}={C_2}=\frac{{{V_o}D}}{{\Delta{V_{C1}}R{f_s}\left({1-D}\right)}}\\{C_3}=\frac{{{V_o}D}}{{\Delta{V_{C3}}R{f_s}}}\\{C_r}=\frac{{{D^2}}}{{{\pi^2}{f_s}}}\left({\frac{{1-D}}{{{f_s}{L_r}}}+\frac{{{\Delta_{Lr}}}}{E}}\right)\end{array}$$
+\begin{array}{l}{C_1}={C_2}=\frac{{{V_o}D}}{{\Delta{V_{C1}}R{f_s}\left({1-D}\right)}}\\{C_3}=\frac{{{V_o}D}}{{\Delta{V_{C3}}R{f_s}}}\\{C_r}=\frac{{{D^2}}}{{{\pi^2}{f_s}}}\left({\frac{{1-D}}{{{f_s}{L_r}}}+\frac{{{\Delta_{Lr}}}}{E}}\right)\end{array}
