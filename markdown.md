@@ -36,7 +36,7 @@ y(x_{i}) = 4 + x_{i}^{2}
 >Un sistema de ecuaciones
 
 $$\begin{equation}
-\left.
+{\left.
 2x + y  = 1 \atop
 x + y = 4 
 \right\}
