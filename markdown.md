@@ -2,4 +2,4 @@
 
 >Primeramente vamos a realizar una suma:
 
-$$ a + b = c $$
+$$a+b=c$$
