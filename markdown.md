@@ -59,11 +59,11 @@ f(n) =
 
 
 \begin{equation*}
-\begin{rcases}
+\begin{cases}
   a &= b + c \\
   d &= e + f + g \\
   h &= i + j + k + l
-\end{rcases}
+\end{cases}
 \text{ three equations}
 \end{equation*}
 
