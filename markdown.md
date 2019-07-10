@@ -69,7 +69,7 @@ Si no funciona esto:
 
 \begin{equation}
 f(x) = \left\lbrace
-\begin{array}{ll}
+\begin{array}{lr}
 \text{si } x>5 & 1 \newline
 \text{si } x\leq 5 & 0
 \end{array}
@@ -78,6 +78,7 @@ f(x) = \left\lbrace
 
 
 Poner esto:
+
 \begin{equation}
 f(x) = \left\lbrace
 \begin{array}{ll}
@@ -96,7 +97,9 @@ f(x) = \left\lbrace
 
 
 Probando
+
 \begin{array}{lcl} z & = & a \newline f(x,y,z) & = & x + y + z \end{array}
 
+Finalmente
 
 $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
