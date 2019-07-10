@@ -10,7 +10,7 @@ $$a+b=c$$
 
 Si queremos una ecuación en línea con variables en línea  $a \ne 0$, entonces tenemos algo como esto $a + b = c$.
 
-El ejemplo de la ágina de MAthjax es este:
+El ejemplo de la página de MAthjax es este:
 
 When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
@@ -32,14 +32,6 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 y(x_{i}) = 4 + x_{i}^{2}
 \end{equation}
 
-
->Un sistema de ecuaciones
-
-\begin{equation}
-f(x) = \left\lbrace \begin{array}{ll} \textup{si } x>5 & 1\\ \textup{si } x\leq 5 & 0 \end{array} \right.
-\end{equation}
-
-
 >Agregando un límite
 
 \begin{equation}
@@ -51,6 +43,13 @@ f(x) = \left\lbrace \begin{array}{ll} \textup{si } x>5 & 1\\ \textup{si } x\leq 
 
 $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha}$$
 
+>Un sistema de ecuaciones
+
+$$
+\left. 2x + y  = 1 \atop x + y = 4 \right\}
+$$
+
+Entonces
 
 >También se pueden definir ecuaciones por intervalos
 
