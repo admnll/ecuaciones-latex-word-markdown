@@ -58,7 +58,14 @@ f(n) =
 >También se pueden definir ecuaciones por intervalos
 
 \begin{equation}
-f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \newline 3n + 1 & \mbox{si }n \mbox{ es impar} \end{matrix} \right. \end{equation}
+f(n) = 
+  \left 
+  \{\begin{matrix} 
+  n/2 & \text{si }n \text{ es par} \newline 
+  3n + 1 & \mbox{si }n \mbox{ es impar} 
+  \end{matrix} 
+  \right
+\end{equation}
 
 
 >Ahora escribimos un arreglo de ecuaciones
