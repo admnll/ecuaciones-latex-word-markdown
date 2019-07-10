@@ -69,7 +69,7 @@ Si no funciona esto:
 
 \begin{equation}
 f(x) = \left\lbrace
-\begin{array}{ll}
+\begin{array}{rr}
 \text{si } x>5 & 1 \newline
 \text{si } x\leq 5 & 0
 \end{array}
