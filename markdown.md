@@ -129,6 +129,6 @@ $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, 
 
 \begin{equation}
 a \newline 
-a+b \newline 
+a+b 
 a+b+c
 \end{equation}
