@@ -50,7 +50,7 @@ $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\l
 \begin{equation}
 f(n) =
   \begin{cases}
-    n/2       & \quad \text{if } n \text{ is even}\\
+    n/2       & \quad \text{if } n \text{ is even} \newline
     -(n+1)/2  & \quad \text{if } n \text{ is odd}
   \end{cases}
 \end{equation}
