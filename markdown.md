@@ -52,11 +52,18 @@ $$
 
 Entonces
 
+\begin{equation}
+    o=g(h)=\left\{\begin{array}{rcl}
+                     1 & if & h <   0 \\
+                     0 & if & h \le 0
+\end{array}\right.
+\end{equation}
+
 >También se pueden definir ecuaciones por intervalos
 
 \begin{equation}
-f(n) = \left \{ \begin{matrix} n/2 & \mbox{si }n\mbox{ es par}
-\\ 3n+1 & \mbox{si }n\mbox{ es impar}\end{matrix} \right.
+f(n)=\left\{\begin{matrix} n/2 & \mbox{si }n\mbox{ es par}
+\\ 3n+1 & \mbox{si }n\mbox{ es impar}\end{matrix}\right.
 \end{equation}
 
 
