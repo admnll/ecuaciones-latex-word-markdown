@@ -73,4 +73,18 @@ f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \\ 3n + 1 & \mbox
 
 \begin{array}{lcl} z & = & a \\ f(x,y,z) & = & x + y + z \end{array}
 
+$$\begin{equation}
+\begin{array}{lrcl}
+\textbf{Conservation of energy}     & E_{kin}               &=& E'_{kin}                \\
+                & m_1 v_1^2 + m_2 v_2^2         &=& m_1 {v'}_{1}^{2} + m_2 {v'}_{2}^{2} \\
+                & m_1 (v_1^2 - {v'}_1^2)        &=& m_2 ({v'}_2^2 - v_2^2)      \\
+                & m_1 (v_1 + {v'}_1) (v_1 - {v'}_1)     &=& m_2 ({v'}_2 + v_2) ({v'}_2 - v_2)   \\
+\\
+
+\textbf{Conservation of momentum}   & p                 &=& p' \\
+                & m_1 v_1 + m_2 v_2             &=& m_1 {v'}_1 + m_2 {v'}_2 \\
+                & m_1 (v_1 - {v'}_1)            &=& m_2 ({v'}_2 - v_2) \\
+\end{array}
+\end{equation}$$
+
 
