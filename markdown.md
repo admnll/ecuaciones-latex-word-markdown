@@ -39,7 +39,7 @@ $$\begin{equation}
 {\left.
 2x + y  = 1 \atop
 x + y = 4 
-\right\}
+\right }
 \end{equation}$$
 
 
