@@ -108,7 +108,7 @@ f(x) = \left
 \text{si } x>5000 & 10000 \newline
 \text{si } x\leq 5 & 0
 \end{array}
-\right.\rbrace
+\rbrace \right.
 \end{equation}
 
 
