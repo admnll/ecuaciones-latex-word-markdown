@@ -59,13 +59,10 @@ f(n) =
 
 \begin{equation}
 f(n) = 
-  \begin{matrix} 
-  {
+  { \begin{matrix} 
   n/2 & \mbox{si }n \mbox{ es par} \newline 
-  3n + 1 & \mbox{si }n \mbox{ es impar} 
-  }
-  \end{matrix} 
-  
+  3n + 1 & \mbox{si }n \mbox{ es impar}  
+  \end{matrix} }
 \end{equation}
 
 Si no funciona esto:
