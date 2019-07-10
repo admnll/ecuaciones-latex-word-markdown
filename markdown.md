@@ -73,6 +73,6 @@ f(n) = \left \{\begin{matrix} n/2 & \mbox{si }n \mbox{ es par} \\ 3n + 1 & \mbox
 
 \begin{array}{lcl} z & = & a \\ f(x,y,z) & = & x + y + z \end{array}
 
-$$a+b=c\\d+e=f$$
+$$a+b=c \\ d+e=f$$
 
 
