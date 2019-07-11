@@ -37,7 +37,7 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 
->Una ecuación con fracciones se puede representar como aquí(\ref{etiqueta:uno}):
+>Una ecuación con fracciones se puede representar como aquí (\ref{etiqueta:uno}):
 
 \begin{equation}\label{etiqueta:uno}
 \frac{x^2}{x^2 + y^2} = \frac15 + \frac1{x}
@@ -70,8 +70,8 @@ f(n) =
   \begin{cases}
     n/2       & \quad \text{if } n \text{ is even} \newline
     -(n+1)/2  & \quad \text{if } n \text{ is odd}
-  \end{cases}
-\end{equation}.
+  \end{cases}.
+\end{equation}
 
 
 > Otra forma de definir ecuaciones es esta:
@@ -110,7 +110,7 @@ f(x) = \left\lbrace
 \end{equation}
 
 
-> a la izquierda:
+> a la izquierda,
 
 \begin{equation}
 f(x) = \left\lbrace
