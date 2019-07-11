@@ -8,22 +8,22 @@ En caso de que no puedan instalar la extensión y les aparezca algo como esto:
 También hay una extensión para firefox, pero está desactualizada y no funciona, por lo que no se recomienda descargarla. 
 
 ### Nota
-**Los siguientes ejemplos tienen por objeto evidenciar diferentes formas en que se muestran las ecuaciones. Seleccione el ejemplo más adecuado a sus necesidades** 
+**Los siguientes ejemplos tienen por objeto evidenciar diferentes formas en que se muestran las ecuaciones. Seleccione el ejemplo más adecuado a sus necesidades.** 
 
 
 ### Estos son los ejemplos
 
->Primeramente vamos a realizar una suma:
+>Primeramente vamos a realizar una suma,
 
 $$a+b=c$$
 
 
->Luego una división:
+>luego una división:
 
 $$a/b=c$$
 
 
-Si queremos una ecuación en línea con variables en línea  $a \ne 0$, entonces tenemos algo como esto $a + b = c$.
+Además se pueden escribir variables en línea como $v_z$, o  $a \ne 0$, o una ecuación en línea como $a + b = c$.
 
 El ejemplo de la página de Mathjax es este:
 
@@ -31,29 +31,29 @@ When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 
-No funciona adecuadamente usando \(...\) pero sí funciona usando el símbolo '$'.
+No funciona adecuadamente usando `\(...\)`, pero sí funciona usando el símbolo `$`, tal como se muestra enseguida:
 
 When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 
->Una ecuación más complicada es la siguiente:
+>Una ecuación con fracciones se puede representar como aquí:
 
 \begin{equation}
 \frac{x^2}{x^2 + y^2} = \frac15 + \frac1{x}
 \end{equation}
 
 
->Para una ecuación con referencia, por ejemplo, la ecuación (\ref{eq:ej}):
+>Para una ecuación con referencia, por ejemplo, la ecuación (\ref{eq:ej}), se utiliza el código `(\ref{eq:ej})`
 
 \begin{equation}\label{eq:ej}
 y(x_{i}) = 4 + x_{i}^{2}
 \end{equation}
 
 
->También se pueden definir límites
+>También se pueden definir límites como en (\ref{eq:dos})
 
-\begin{equation}
+\begin{equation}\label{eq:dos}
 \lim_{x \to \infty} \frac{\sin(x)}{x} = 0
 \end{equation}
 
