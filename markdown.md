@@ -9,6 +9,8 @@ Sigan las instrucciones de [aquí](https://github.com/orsharir/github-mathjax/is
 
 También hay una extensión para firefox, pero está desactualizada y no funciona. 
 
+**Los siguientes ejemplos tienen por objeto evidenciar diferentes formas en que se muestran las ecuaciones, seleccione el ejemplo más adecuado a sus necesidades** 
+
 >Primeramente vamos a realizar una suma:
 
 $$a+b=c$$
@@ -121,7 +123,7 @@ f(x) = \left.
 > Ahora escribimos un arreglo de ecuaciones sin llaves
 
 \begin{equation}
-\begin{array}{l}{C_1} = {C_2} = \frac{{{V_o}D}}{{\Delta {V_{C1}}R{f_s} \left({1 - D} \right)}} \newline {C_3} = \frac{{{V_o}D}}{{\Delta {V_{C3}}R{f_s}}} \newline {C_r} = \frac{{{D^2}}}{{{\pi ^2}{f_s}}} \left( {\frac{{1 - D}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right) \end{array}
+\begin{array}{l}{C_1} = \frac{{{V_o}x}}{{\Delta {VC_{1}}R{f_s} \left({x} \right)}} \newline {C_3} = \frac{{{V_o}x ^2}}{{\Delta {VC_{3}}R{f_s}}} \newline {C_p} = \frac{{{D/2}}}{{{\pi ^4}{f_s}}} \left( {\frac{{x}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right) \end{array}
 \end{equation}
 
 
