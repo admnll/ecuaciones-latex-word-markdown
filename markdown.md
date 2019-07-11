@@ -3,7 +3,7 @@
 ## Antes que nada, hay que instalar la extensión de [Mathjax](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related) para Chrome.
 
 En caso de que no puedan instalar la extensión y les aparezca algo como esto:
-**'Could not load extension icon 'icon16.png'.'**, sigan las instrucciones de [aquí](https://github.com/orsharir/github-mathjax/issues/24#issuecomment-462956434)
+**'Could not load extension icon 'icon16.png'.'**, sigan las instrucciones de [aquí](https://github.com/orsharir/github-mathjax/issues/24#issuecomment-462956434).
 
 También hay una extensión para firefox, pero está desactualizada y no funciona, por lo que no se recomienda descargarla. 
 
@@ -37,33 +37,33 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 
->Una ecuación con fracciones se puede representar como aquí:
+>Una ecuación con fracciones se puede representar como aquí(\ref{etiqueta:uno}):
 
-\begin{equation}
+\begin{equation}\label{etiqueta:uno}
 \frac{x^2}{x^2 + y^2} = \frac15 + \frac1{x}
 \end{equation}
 
 
->Para una ecuación con referencia, por ejemplo, la ecuación (\ref{eq:ej}), se utiliza el código `(\ref{eq:ej})`
+>Para una ecuación con referencia, por ejemplo, la ecuación (\ref{eq:ej}), se utiliza el código `(\ref{eq:ej})`.
 
 \begin{equation}\label{eq:ej}
 y(x_{i}) = 4 + x_{i}^{2}
 \end{equation}
 
 
->También se pueden definir límites como en (\ref{eq:dos})
+>También se pueden definir límites como en (\ref{eq:dos}),
 
 \begin{equation}\label{eq:dos}
 \lim_{x \to \infty} \frac{\sin(x)}{x} = 0
 \end{equation}
 
 
->O sumatorias
+> sumatorias,
 
 $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha}$$
 
 
->Un sistema de ecuaciones
+>y sistemas de ecuaciones
 
 \begin{equation}
 f(n) =
@@ -71,7 +71,7 @@ f(n) =
     n/2       & \quad \text{if } n \text{ is even} \newline
     -(n+1)/2  & \quad \text{if } n \text{ is odd}
   \end{cases}
-\end{equation}
+\end{equation}.
 
 
 > Otra forma de definir ecuaciones es esta:
@@ -86,7 +86,7 @@ f(n) =
 \end{equation*}
 
 
-> Se puede poner una llave a la izquierda
+> Se puede poner una llave a la izquierda,
 
 \begin{equation}
 f(x) = \left\lbrace
@@ -98,7 +98,7 @@ f(x) = \left\lbrace
 \end{equation}
 
 
-> Y alinear cada columna a la derecha:
+> y alinear cada columna a la derecha,
 
 \begin{equation}
 f(x) = \left\lbrace
@@ -110,7 +110,7 @@ f(x) = \left\lbrace
 \end{equation}
 
 
-> O a la izquierda:
+> a la izquierda:
 
 \begin{equation}
 f(x) = \left\lbrace
@@ -122,7 +122,7 @@ f(x) = \left\lbrace
 \end{equation}
 
 
-> O si quieremos la llave en la derecha
+> o mover la llave en la derecha.
 
 \begin{equation}
 f(x) = \left.
@@ -134,7 +134,7 @@ f(x) = \left.
 \end{equation}
 
 
-> Ahora escribimos un arreglo de ecuaciones sin llaves
+> Ahora escribimos un arreglo de ecuaciones sin llaves.
 
 \begin{equation}
 \begin{array}{l}{C_1} = \frac{{{V_o}x}}{{\Delta {VC_{1}}R{f_s} \left({x} \right)}} \newline {C_3} = \frac{{{V_o}x ^2}}{{\Delta {VC_{3}}R{f_s}}} \newline {C_p} = \frac{{{D/2}}}{{{\pi ^4}{f_s}}} \left( {\frac{{x}}{{{f_s}{L_r}}} + \frac{{{\Delta_{Lr}}}}{E}} \right) \end{array}
@@ -146,12 +146,12 @@ f(x) = \left.
 \begin{array}{lcr} z & = & a \newline f(x,y,z) & = & x + y + z \end{array}
 
 
-> También se pueden agregar letras griegas
+> También se pueden agregar letras griegas.
 
 $\min _\Theta \sum {r\left(s, o\right)\in \Omega } \log(1+exp(-Y{rso}\phi (s,r, o; \Theta)) + \lambda\left | \Theta \right |_2^2 $
 
 
-Si no tiene el `\begin{equation} y \end{equation}` entonces no se enumeran las ecuaciones
+Si no tiene el `\begin{equation} y \end{equation}` entonces no se enumeran las ecuaciones.
 
 
 >Aquí les dejo otros ejemplos:
@@ -165,7 +165,7 @@ Si no tiene el `\begin{equation} y \end{equation}` entonces no se enumeran las e
 \end{equation}
 
 
-Este último también usa `$$`
+Este último también usa `$$` y no se enumera.
 
 $$
 \phi_r=\left\lbrace
