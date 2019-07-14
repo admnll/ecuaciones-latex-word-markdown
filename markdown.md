@@ -78,8 +78,8 @@ f(n) =
 
 \begin{equation*}
 \begin{cases}
-  a &= b + c \newline
-  d &= e + f + g \newline
+  a &= b + c \cr
+  d &= e + f + g \cr
   h &= i + j + k + l
 \end{cases}
 \text{ three equations}
